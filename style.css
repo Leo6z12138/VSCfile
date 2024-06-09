@@ -6,8 +6,9 @@ body {
 
 ul.album-fotos {
   width: 700px;
+  height: 700px
   margin: 0 auto;
-  padding: 50px;
+  padding: 800px;
   overflow: hidden;
   list-style: none;
 }
@@ -34,7 +35,7 @@ ul.album-fotos li span {
 }
 
 ul.album-fotos li:hover {
-  -webkit-transform: scale(6.0);
+  -webkit-transform: scale(4.0);
   -webkit-transition: all .5s ease-in;
 }
 
@@ -52,8 +53,8 @@ ul.album-fotos li.foto01 {
 }
 
 ul.album-fotos li.foto01:hover {
-  background-position: 0px 0px;
-  background-size: 200px 200px;
+  background-position: 50px 50px;
+  background-size: 200px px;
 }
 
 ul.album-fotos li.foto02 {
